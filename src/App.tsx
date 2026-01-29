@@ -37,6 +37,7 @@ const fadeUp = (delay = 0) => ({
 
 function App() {
   return (
+    
     <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-950 to-slate-900 text-slate-50">
       <div className="pointer-events-none fixed inset-0 flex justify-center opacity-60">
         <div className="h-[360px] w-[480px] bg-primary-500/30 blur-[140px]" />
@@ -125,7 +126,7 @@ function App() {
               <div className="glass-panel relative flex h-44 w-full flex-col justify-between overflow-hidden rounded-3xl border-slate-700/80 bg-slate-900/90 p-4 shadow-xl md:h-52 md:w-72">
                 <div className="flex items-center justify-between text-xs">
                   <span className="rounded-full bg-emerald-500/10 px-2 py-1 text-emerald-300">
-                    Open to Internships
+                    
                   </span>
                   <span className="text-slate-400">Software Engineering</span>
                 </div>
