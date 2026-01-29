@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion';
 
 const techBadges = [
-  'React.js',
-  'TypeScript',
-  'Tailwind CSS',
+   'Java',
+  'C',
+  'SQL',
+  'Data Structures',
   'JavaScript',
-  'Java',
+  'React.js',
   'HTML',
-  'CSS',
-  'REST APIs'
+  'CSS'
 ];
 
 const projects = [
@@ -25,13 +25,6 @@ const projects = [
     description:
       'Simple blog interface using reusable components, mock data, and client-side routing concepts.',
     highlight: 'Focused on component reusability and clean UI for reading articles.'
-  },
-  {
-    title: 'News Article Classifier (ML)',
-    stack: ['Python', 'Scikit-learn'],
-    description:
-      'Basic machine learning model to classify news articles using text preprocessing and supervised learning.',
-    highlight: 'Implemented a full workflow from preprocessing to evaluation.'
   }
 ];
 
@@ -100,9 +93,10 @@ function App() {
                 </span>
               </h1>
               <p className="text-sm text-slate-300 md:text-base">
-                Frontend-focused Computer Science student with a strong interest in
-                building clean, responsive, and accessible web applications using
-                React and modern tooling.
+              Computer Science student with a strong foundation in Java and C, object-oriented
+              programming, and core computer science concepts, with experience building
+              web interfaces using React and modern tooling.
+
               </p>
 
               <div className="flex flex-wrap gap-3 pt-2">
@@ -133,17 +127,18 @@ function App() {
                   <span className="rounded-full bg-emerald-500/10 px-2 py-1 text-emerald-300">
                     Open to Internships
                   </span>
-                  <span className="text-slate-400">Frontend · React</span>
+                  <span className="text-slate-400">Software Engineering</span>
                 </div>
                 <div>
-                  <p className="text-xs text-slate-400">Currently focused on</p>
-                  <p className="text-sm font-medium text-slate-100">
-                    React, Tailwind & UI Engineering
-                  </p>
+                 <p className="text-sm text-slate-300 md:text-base">
+                  Computer Science student with a strong foundation in Java, object-oriented
+                    programming, and core computer science concepts, with experience building
+                   web interfaces using React.
+          </p>
                 </div>
                 <div className="flex items-center justify-between text-[0.65rem] text-slate-400">
-                  <span>Chicago, Illinois</span>
-                  <span>GPA: 3.7</span>
+                  <span>Toronto, Ontario</span>
+                  
                 </div>
                 <div className="pointer-events-none absolute -bottom-8 right-4 h-16 w-16 rounded-full bg-primary-500/40 blur-2xl" />
               </div>
@@ -160,14 +155,13 @@ function App() {
           >
             <p className="section-title">Profile</p>
             <h2 className="mb-3 text-lg font-semibold text-slate-100">
-              Computer Science Student · Frontend Developer
+              Computer Science Student · Software Developer
             </h2>
             <p className="text-sm leading-relaxed text-slate-300">
-              I&apos;m an undergraduate Computer Science student with hands-on
-              experience building responsive web interfaces using React, JavaScript,
-              and Tailwind CSS. I enjoy turning ideas into clean, interactive UI,
-              and I have a solid foundation in Java, object-oriented programming,
-              and core software engineering concepts.
+              I&apos;m an undergraduate Computer Science student with a strong foundation
+              in Java programming, object-oriented design, and core software engineering
+              principles. I also have experience building responsive web interfaces using
+              React and Tailwind CSS as supporting tools.
             </p>
           </motion.section>
 
@@ -179,28 +173,28 @@ function App() {
             <div className="space-y-2 text-sm">
               <p>
                 <span className="text-slate-400">Phone:</span>{' '}
-                <span className="font-medium text-slate-100">+1 (920) 312‑121</span>
+                <span className="font-medium text-slate-100">437-974-5796</span>
               </p>
               <p>
                 <span className="text-slate-400">Email:</span>{' '}
                 <a
-                  href="mailto:abel.abdeta.takele@gmail.com"
+                  href="mailto:Abelaab141@gmail.com"
                   className="font-medium text-primary-400 hover:text-primary-300"
                 >
-                  abel.abdeta.takele@gmail.com
+                  Abelaab141@gmail.com
                 </a>
               </p>
             </div>
 
             <div className="mt-2 grid grid-cols-1 gap-2 text-xs md:grid-cols-2">
               <a
-                href="https://www.linkedin.com/in/abel-takele"
+                href="https://www.linkedin.com/in/abel-takele-985409216"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-between rounded-2xl border border-slate-700/80 bg-slate-900/60 px-3 py-2 transition hover:border-primary-500/70 hover:text-primary-200"
               >
                 <span>LinkedIn</span>
-                <span className="text-slate-400">/abel-takele</span>
+                <span className="text-slate-400">/abel-takele-985409216</span>
               </a>
               <a
                 href="https://github.com/abel-takele"
@@ -251,10 +245,7 @@ function App() {
             <div className="mt-4 grid gap-3 text-xs text-slate-300 md:grid-cols-2">
               <div>
                 <p className="font-semibold text-slate-200">Concepts</p>
-                <p>
-                  Component-based architecture, REST API consumption, basic OOP, SDLC
-                  fundamentals.
-                </p>
+                <p>Component-based architecture, basic OOP, SDLC fundamentals.</p>
               </div>
               <div>
                 <p className="font-semibold text-slate-200">Tools & Platforms</p>
@@ -264,22 +255,12 @@ function App() {
           </div>
 
           <div className="space-y-4">
-            <div>
-              <p className="section-title">Languages</p>
-              <ul className="mt-2 space-y-1 text-sm text-slate-200">
-                <li>
-                  <span className="font-medium">English</span> — C2 Proficient /
-                  Fluent
-                </li>
-                <li>
-                  <span className="font-medium">Amharic</span> — Native / Fluent
-                </li>
-              </ul>
-            </div>
+        
             <div>
               <p className="section-title">Activities & Interests</p>
               <ul className="mt-2 list-disc space-y-1 pl-4 text-sm text-slate-300">
-                <li>Web development and UI design</li>
+                 <li>Java and C programming</li>
+                 <li>Backend and database fundamentals</li>
                 <li>Learning new frontend technologies</li>
                 <li>Tech blogs and developer communities</li>
               </ul>
@@ -337,18 +318,19 @@ function App() {
           <div>
             <p className="section-title">Education</p>
             <h2 className="mb-2 text-lg font-semibold text-slate-100">
-              B.S. in Business Administration & Computer Science
+              Bachelor&apos;s Degree in Computer Science
             </h2>
             <p className="text-sm text-slate-300">
-              BigTown College, Chicago, Illinois · GPA: 3.7
+              York University  · Class of 2027
             </p>
-            <p className="mt-2 text-xs text-slate-400">Expected graduation: June 20XX</p>
+            <p className="mt-2 text-xs text-slate-400">Relevant courses and core CS foundations</p>
             <div className="mt-4 space-y-2 text-sm text-slate-300">
               <p className="font-semibold text-slate-200">Relevant Coursework</p>
               <ul className="list-disc space-y-1 pl-4">
                 <li>Data Structures and Algorithms</li>
                 <li>Object-Oriented Programming (Java)</li>
                 <li>Database Systems</li>
+                <li>SQL & Relational Databases</li>
               </ul>
             </div>
           </div>
@@ -356,13 +338,12 @@ function App() {
           <div className="space-y-3 text-xs text-slate-300">
             <p className="section-title">Focus Areas</p>
             <p>
-              Strengthening frontend engineering skills with React and TypeScript
-              while deepening understanding of algorithms, data structures, and
-              software design principles.
+              Strengthening core computer science skills including Java programming,
+              data structures, algorithms, and software design principles.
             </p>
             <p>
-              Interested in internships where I can contribute to real-world
-              products, learn from experienced engineers, and grow as a frontend
+              Interested in software engineering internships where I can contribute
+              to real-world systems, learn from experienced engineers, and grow as a
               developer.
             </p>
           </div>
@@ -376,11 +357,11 @@ function App() {
         >
           <p className="section-title">Let&apos;s Connect</p>
           <p>
-            I&apos;m actively looking for frontend-focused internship opportunities
-            where I can learn, build, and contribute.
+            I&apos;m actively looking for software engineering internship opportunities
+            where I can learn, build, and contribute to real-world systems.
           </p>
           <a
-            href="mailto:abel.abdeta.takele@gmail.com"
+            href="mailto:Abelaab141@gmail.com"
             className="inline-flex items-center gap-2 rounded-full bg-primary-500 px-5 py-2 text-xs font-medium text-slate-950 shadow-glow shadow-primary-500/50 transition hover:bg-primary-600"
           >
             Email Me
